@@ -22,7 +22,7 @@ public class ProductRepositoryTest {
     }
 
     @Test
-    public void shouldDeleteId() {
+    public void shouldRemoveById() {
         ProductRepository repo = new ProductRepository();
         repo.save(product1);
         repo.save(product2);
@@ -35,5 +35,16 @@ public class ProductRepositoryTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
+    @Test
+    public void shouldExeptionRemoveById() {
+        ProductRepository repo = new ProductRepository();
+        repo.save(product1);
+        repo.save(product2);
+        repo.save(product3);
+
+        Assertions.assertThrows(NotFoundException.class, () -> {
+            repo.removeById(-1);
+        });
+    }
 
 }

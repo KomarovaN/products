@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d53e439-4e91-48e0-8da6-564e7c0aa0f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ProductManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
